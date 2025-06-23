@@ -54,7 +54,7 @@ function displayData(data) {
   const sdt = data.sdt || '#';
 
   // Gán dữ liệu
-  document.getElementById('Hi').innerHTML = `<p>${icon} Tên nhà trọ: ${name}</p>`;
+  document.getElementById('Hi').innerHTML = `<p>${icon} : ${name}</p>`;
   document.getElementById('Hi1').src = imageUrl;
   document.getElementById('Hi2').src = image1;
   document.getElementById('Hi3').src = image2;
